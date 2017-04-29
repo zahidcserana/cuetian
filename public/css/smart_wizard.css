@@ -1,0 +1,223 @@
+.ulmain {
+  overflow:visible;
+  float:left;
+  background: none repeat scroll 0 0 #f8f7ee;
+    box-shadow: 0 -2px 3px rgba(203, 196, 130, 0.06) inset;
+}
+.ulmain ul li{
+  float:left;
+  margin:0px;
+  list-style: none;
+}
+a
+{
+  cursor:pointer;
+}
+.subdiv
+{
+ background: none repeat scroll 0 0 #ffffff;
+ 
+}
+.content_div
+{
+  float:left;padding:10px;
+  background: none repeat scroll 0 0 #ffffff;
+  height:200px;
+ 
+}
+nav {
+    background: none repeat scroll 0 0 #f8f7ee;
+    box-shadow: 0 -2px 3px rgba(203, 196, 130, 0.06) inset;
+}
+.stepDesc
+{
+  padding:10px;
+}
+#step-2 
+{
+  display:none;
+}
+#step-3 
+{
+  display:none;
+}
+#step-4
+{
+  display:none;
+}
+
+
+div.actionBar {
+  display:block;
+  position: relative; 
+  float:right;
+  margin:             3px 0 0 0;   
+  /*border:             1px solid #CCC;*/
+  padding:            0;    
+  color:              #5A5655;   
+  background-color:   #F8F8F8;
+  height:40px;
+/*  width:730px; 
+  float:right; */  
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  padding-left:40%;
+
+}
+.buttonNext {
+    /*background-color: #5a5655;*/
+     background-color:#468cd2;
+    border: 1px solid #5a5655;
+    color: #fff;
+    display: block;
+    float: right;
+    font: bold 13px Verdana,Arial,Helvetica,sans-serif;
+    margin: 5px 3px 0;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+ .buttonDisabled {
+    background-color: #cccccc !important;
+    border: 1px solid #cccccc !important;
+    color: #f8f8f8 !important;
+    cursor: text;
+}
+.buttonPrevious {
+   /* background-color: #5a5655;*/
+     background-color:#468cd2;
+    border: 1px solid #5a5655;
+    color: #fff;
+    display: block;
+    float: right;
+    font: bold 13px Verdana,Arial,Helvetica,sans-serif;
+    margin: 5px 3px 0;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+ .buttonFinish {
+   /* background-color: #5a5655;*/
+    background-color:#468cd2;
+    border: 1px solid #5a5655;
+    color: #fff;
+    display: block;
+    float: right;
+    font: bold 13px Verdana,Arial,Helvetica,sans-serif;
+    margin: 5px 10px 0 3px;
+    outline-style: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+.done { 
+  position:relative;
+  color:#FFF !important;  
+  background: #75ab22;
+  z-index:99;
+  border: 0.5px dotted white;
+}
+.selected{
+  cursor:text;
+  background-color: #ffffff !important;
+  color: #29324e !important;
+  box-shadow: 0 2px 0 #ee765d inset;
+  font-size:0.875rem;
+}
+.disabled {
+    background: none repeat scroll 0 0 #f8f8f8;
+    color: #cccccc;
+    cursor: text;
+}
+.tabs li {list-style:none;display:inline;}
+
+			.tabs a {
+				padding:5px 10px;
+				display:inline-block;
+				/*background:none repeat scroll 0 0 #f8f8f8;*/
+				/*color:#fff;*/
+                /* border: 1px solid #666;*/
+				text-decoration:none;
+                color: #c3c2b9;
+			}
+
+			.tabs a.active {
+				background:#fff;
+				color:#000;
+			}
+            nav ul li a:hover {
+   /* color:#fff;
+    background-color:silver;*/
+    text-decoration:none !important;
+}
+      @media only screen and (max-width: 480px) {
+        div.actionBar { padding: 0;}
+        .buttonPrevious {width:60px !important;}
+        .buttonFinish {width:50px !important;}
+        .buttonNext {width:50px !important;}
+        .ulmain {width:250px !important;}
+        small{display: none;}
+        .tabs a {
+          padding:1px;
+          width:50px;
+        }
+        .stepDesc{padding:0px;}
+        .tabs li{width:50px;}
+        
+      }
+      .resp_code
+      {
+      margin:5px 10px 10px 300px;
+      padding:10px 20px 10px 20px;
+      font:normal 1em/1.3em Tahoma, Geneva, sans-serif;
+      color:#333;
+      background:#f8f8f8;
+	border:#ddd 1px solid;
+	border-radius:.25em;
+      overflow:auto;width:50%;
+      }
+      @media screen and (max-width: 480px)
+      {
+      .resp_code
+      {width:auto !important;margin:0px !important;
+      }
+      }
+body {
+    background: none repeat scroll 0 0 #fff;
+    color: #666;
+    font: 0.81em/150% Tahoma,Geneva,sans-serif;
+    word-wrap: break-word;
+    padding:0;
+    margin:0;
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table,
+ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr,
+acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong,
+sub, sup, tt, var, legend, fieldset {
+    margin: 0;
+    padding: 0;
+}
+    
+    p {
+    color: #757373;
+    font: 1.1em/1.5em Tahoma,Geneva,sans-serif;
+   /* margin: 0.5em 0.1em 0.5em 0.9em;*/
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #404040;
+    line-height: 130%;
+}
